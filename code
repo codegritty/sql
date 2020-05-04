@@ -1,0 +1,5 @@
+USE TERRA
+
+select fn +   ' '   +    sn +      ' ' +      '(' +        convert(varchar(30),contactID)        +')'     as newname 
+
+from tblContacts
